@@ -35,8 +35,8 @@ import boto3
 import pandas as pd
 
 aws_region = 'us-east-1'
-aws_access_key_id = 'AKIAUWWFOBUJFOXZA7NE'
-aws_secret_access_key = 'xnsLx+Sg3jliNFiwVcdf11u7D3mBT321ZwUGW5wm'
+aws_access_key_id = '' # Add your access key
+aws_secret_access_key = '' # Add your secret key
 
 # Initialize DynamoDB client
 dynamodb = boto3.resource('dynamodb', region_name=aws_region, aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
